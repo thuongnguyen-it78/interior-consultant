@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500&family=Lora:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="icon" href="devchallenges.png" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="queries.css">
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+	<title>thuongnguyen.it78</title>
+</head>
+<body>
+
+	<div class="container">
+		<header class="header">
+			<a class="header__logo">
+				This Interior
+			</a>
+	
+			<ul class="nav">
+				<li class="nav__item nav__item--active"><a href="#">Home</a></li>
+				<li class="nav__item"><a href="#">Collection</a></li>
+				<li class="nav__item"><a href="#">About</a></li>
+				<li class="nav__item"><a href="#">Contact</a></li>
+				<i class="fal fa-times"></i>
+			</ul>
+			<button class = "menu">
+				<i class="fal fa-bars"></i>				
+			</button>
+		</header>
+	
+		<section class="section-main">
+			<div class="main-info">
+				<h1 class="info__title">
+					Modern interior
+				</h1>
+	
+				<p class="info__desc">
+					A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+				</p>
+	
+				<a href="" class="btn">Read more -></a>
+			</div>
+	
+			<div class="main-img">
+				<div class="img-wrapper">
+					<img src="photo1.png" alt="" class="main__img">
+				</div>
+				
+				
+				<div class="img-container">
+					<div class="img-desc">
+						
+						<img src="photo2.png" alt="" class="img-desc-avatar">
+						<div class="img-desc-detail">
+							<h3 class="img-name">
+								Aliza Webber
+							</h3>
+		
+							<span class="img-position">
+								Interior designer
+							</span>
+						</div>
+					</div>
+
+					<div class="main-img__title">
+						Designed in 2020 by Aliza Webber
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<footer class="footer">
+			created by <span>thuongnguyen.it78@gmail.com</span> - devChallenges.io
+		</footer>
+	</div>
+
+	<script>
+		const icon = document.querySelector('.menu i')
+		const iconTimes = document.querySelector('.fa-times')
+		const nav = document.querySelector('.nav')
+		console.log(icon)
+		icon.addEventListener('click', () => {
+			nav.classList.toggle('show')
+		})
+
+		iconTimes.addEventListener('click', () => {
+			nav.classList.toggle('show')
+		})
+	</script>
+
+	
+</body>
+</html>
