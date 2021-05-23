@@ -2,6 +2,9 @@
 	.container {
 		max-width: 1140px;
 	}
+	.info__title {
+		font-size: 44px;
+	}
 }
 
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
@@ -30,7 +33,7 @@
 	}
 
 	.info__title {
-		font-size: 36px;
+		font-size: 28px;
 		line-height: 46px;
 		margin-bottom: 25px;
 	}
@@ -49,13 +52,19 @@
 		display: inline-block;
 	}
 
-	.header {
-		margin-bottom: 70px;
+	.main-img__title {
+		font-size: 18px;
+		line-height: 23px;
+		max-width: 210px;
 	}
 }
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
+	.header {
+		margin-bottom: 70px;
+	}
+
 	.header {
 		margin-top: 25px;
 	}
@@ -105,12 +114,6 @@
 		font-size: 10px;
 		line-height: 12px;
 		display: block;
-	}
-
-	.main-img__title {
-		font-size: 18px;
-		line-height: 23px;
-		max-width: 210px;
 	}
 
 	.nav {
