@@ -78,6 +78,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 230px;
+	align-items: center;
 }
 
 .info__title {
